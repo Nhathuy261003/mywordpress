@@ -596,7 +596,57 @@ img.emoji {
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nhathuy261003.github.io/mywordpress/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 6.1">
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<style id="wpr_lightbox_styles">.lg-backdrop {
+	<meta name="generator" content="Powered by Slider Revolution 6.5.31 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<style id="wpr_lightbox_styles">.lg-backdrop {
 	                background-color: rgba(0,0,0,0.6) !important;
 	            }
 	            .lg-toolbar,
@@ -1602,9 +1652,18 @@ img.emoji {
 </div>
 <!-- #page -->
 
-            <div class="brave_popup brave_popup--popup" id="brave_popup_870" data-loaded="false">
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		            <div class="brave_popup brave_popup--popup" id="brave_popup_870" data-loaded="false">
                <!-- <p></p> -->
-               <input type="hidden" id="brave_form_security-NEpILmA1ppQnUn2jc-6" name="brave_form_security-NEpILmA1ppQnUn2jc-6" value="9503721bbc"><input type="hidden" name="_wp_http_referer" value="/myproject/wordpress_601/wordpress/blogs/">         <script>
+               <input type="hidden" id="brave_form_security-NEpILmA1ppQnUn2jc-6" name="brave_form_security-NEpILmA1ppQnUn2jc-6" value="71b9f94818"><input type="hidden" name="_wp_http_referer" value="/myproject/wordpress_601/wordpress/blogs/">         <script>
             document.addEventListener("DOMContentLoaded", function(event) {
 
 
@@ -1696,7 +1755,7 @@ img.emoji {
 <div class="brave_form_field_error"></div>
 <input type="email" placeholder="Email Address*" name="-NEpILmA1ppQnUn2jc-7" class="">
 </div>
-<input type="hidden" id="brave_form_security-NEpILmA1ppQnUn2jc-6" name="brave_form_security-NEpILmA1ppQnUn2jc-6" value="9503721bbc"><input type="hidden" name="_wp_http_referer" value="/myproject/wordpress_601/wordpress/blogs/">
+<input type="hidden" id="brave_form_security-NEpILmA1ppQnUn2jc-6" name="brave_form_security-NEpILmA1ppQnUn2jc-6" value="71b9f94818"><input type="hidden" name="_wp_http_referer" value="/myproject/wordpress_601/wordpress/blogs/">
 </div>
 <div class="brave_form_button  "><button id="brave_form_button--NEpILmA1ppQnUn2jc-6"><span id="brave_form_loading_-NEpILmA1ppQnUn2jc-6" class="brave_form_loading"><svg width="20px" height="20px" viewbox="0 0 6.82666 6.82666" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="none">
                <g fill="rgb(255,255,255)">
@@ -1954,12 +2013,16 @@ img.emoji {
             font-size: 13px;font-family: 'Permanent Marker';line-height: 1.7em;color: rgba(208,115,43, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_element__styler, #brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_fields .formfield__checkbox_label{ font-size: 12px;font-family: Cursive;color: rgba(0,0,0, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 input, #brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 textarea, #brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 select{ 
          padding: 18px;background-color: rgba(255, 255, 255, 1);color: rgba(51,51,51, 1);font-size: 12px;border-width: 1px;border-color: rgba(221,221,221, 1);border-radius: 4px;font-family: Cursive; border-style: solid;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_field { margin: 7.5px 0px;line-height: 18px;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .braveform_label { font-size: 12px;font-family: Cursive;color: rgba(68,68,68, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 input[type="checkbox"]:checked:before, #brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 input[type="radio"]:checked:before{ color: rgba(62,175,179, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_button button{ font-family: Cursive;height: 31px;border-radius: 49px;background-color: rgba(62,175,179, 1);color: rgba(255,255,255, 1);font-size: 19px;font-family: inherit;border-width: 0px;border-color: rgba(227,11,26, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_field--step .brave_form_stepNext{ font-family: Cursive;height: 31px;border-radius: 49px;background-color: rgba(62,175,179, 1);color: rgba(255,255,255, 1);font-size: 19px;line-height: 31px;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_field--step .brave_form_skipstep{ font-family: Cursive;height: 31px;font-size: 12px;color: rgba(0,0,0, 1);line-height: 31px;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .bravepopform_socialOptin_button{font-family: Cursive;height: 31px;border-radius: 49px;font-size: 19px;font-family: inherit;border-width: 0px;border-color: rgba(227,11,26, 1);line-height: 31px;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .bravepopform_socialOptin_button--email{background-color: rgba(62,175,179, 1);color: rgba(255,255,255, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_element-icon{ font-size: 16.15px}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_icon svg{ fill: rgba(255,255,255, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .formfield__inner__image--selected img{ border-color: rgba(62,175,179, 1);}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .formfield__inner__image__selection{ border-color: rgba(62,175,179, 1) transparent transparent transparent;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_field--checkbox_borderd .formfield__inner__checkbox label{border-width: 1px;border-color: rgba(221,221,221, 1);border-radius: 4px;}#brave_popup_870__step__0 #brave_element--NEpILmA1ppQnUn2jc-6 .brave_form_custom_content{ font-size: 13px;color: rgba(107, 107, 107, 1);}</style>
       <link rel="stylesheet" id="bravepop_front_css-css" href="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/brave-popup-builder/assets/css/frontend.min.css?ver=6.1" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31" media="all">
+<style id="rs-plugin-settings-inline-css">#rs-demo-id {}</style>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/woolentor-addons/woolentor-blocks/src/assets/js/script.js?ver=2.4.6" id="woolentor-block-main-js"></script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4" id="swv-js"></script>
 <script id="contact-form-7-js-extra">
 var wpcf7 = {"api":{"root":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/wp-json\/","namespace":"contact-form-7\/v1"}};
 </script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4" id="contact-form-7-js"></script>
+<script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18" defer async id="tp-tools-js"></script>
+<script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31" defer async id="revmin-js"></script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.9.4" id="jquery-blockui-js"></script>
 <script id="wc-add-to-cart-js-extra">
 var wc_add_to_cart_params = {"ajax_url":"\/myproject\/wordpress_601\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/myproject\/wordpress_601\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=520","i18n_view_cart":"Xem giỏ hàng","cart_url":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
@@ -1983,11 +2046,11 @@ var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress_601\/wordpres
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js?ver=4.1.3" id="storefront-header-cart-js"></script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/themes/storefront/assets/js/footer.min.js?ver=4.1.3" id="storefront-handheld-footer-bar-js"></script>
 <script id="eael-general-js-extra">
-var localize = {"ajaxurl":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/wp-admin\/admin-ajax.php","nonce":"b4332fea10","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/tiem-ban-thu-cung\/","cart_redirectition":"no","cart_page_url":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/gio-hang\/","el_breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+var localize = {"ajaxurl":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/wp-admin\/admin-ajax.php","nonce":"c103a262f9","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/tiem-ban-thu-cung\/","cart_redirectition":"no","cart_page_url":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/gio-hang\/","el_breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
 </script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.3.2" id="eael-general-js"></script>
 <script id="bravepop_front_js-js-extra">
-var bravepop_global = {"loggedin":"false","isadmin":"false","referer":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/blogs\/","security":"09a42441f0","goalSecurity":"57d1ac88e3","couponSecurity":"29ef400b4c","cartURL":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/gio-hang\/","ajaxURL":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/wp-admin\/admin-ajax.php","field_required":"Required","no_html_allowed":"No Html Allowed","invalid_number":"Invalid Number","invalid_email":"Invalid Email","invalid_url":"Invalid URL","invalid_date":"Invalid Date","fname_required":"First Name is Required.","lname_required":"Last Name is Required.","username_required":"Username is Required.","email_required":"Email is Required.","email_invalid":"Invalid Email addresss.","pass_required":"Password is Required.","pass_short":"Password is too Short.","yes":"Yes","no":"No","login_error":"Something Went Wrong. Please contact the Site administrator.","pass_reset_success":"Please check your Email for the Password reset link.","customFonts":[]};
+var bravepop_global = {"loggedin":"false","isadmin":"false","referer":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/blogs\/","security":"4a64e193a0","goalSecurity":"2bcdf26eaa","couponSecurity":"757900d355","cartURL":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/gio-hang\/","ajaxURL":"http:\/\/localhost\/myproject\/wordpress_601\/wordpress\/wp-admin\/admin-ajax.php","field_required":"Required","no_html_allowed":"No Html Allowed","invalid_number":"Invalid Number","invalid_email":"Invalid Email","invalid_url":"Invalid URL","invalid_date":"Invalid Date","fname_required":"First Name is Required.","lname_required":"Last Name is Required.","username_required":"Username is Required.","email_required":"Email is Required.","email_invalid":"Invalid Email addresss.","pass_required":"Password is Required.","pass_short":"Password is too Short.","yes":"Yes","no":"No","login_error":"Something Went Wrong. Please contact the Site administrator.","pass_reset_success":"Please check your Email for the Password reset link.","customFonts":[]};
 </script>
 <script src="https://nhathuy261003.github.io/mywordpress/wp-content/plugins/brave-popup-builder/assets/frontend/brave.js?ver=6.1" id="bravepop_front_js-js"></script>
          <script>
